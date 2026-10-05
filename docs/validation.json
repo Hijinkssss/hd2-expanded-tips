@@ -48,5 +48,5 @@
   "unchanged_unrelated_entry_count": 1956,
   "added_ids": 0,
   "removed_ids": 0,
-  "runtime_evidence": "Earlier v1 rendering and wrapping user-reported successful. Polished RC1 final visual spot-check pending in saved records."
+  "runtime_evidence": "Runtime validation PASSED. Three different final RC1 tips manually observed in-game across separate mission loads; correct multiline wrapping and vanilla selection confirmed. Not all 82 tips individually visually inspected."
 }
