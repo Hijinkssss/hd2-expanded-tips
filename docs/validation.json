@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "build": "25480438",
+  "origin": "v1.0.0-RC1",
+  "original_rc1_zip_sha256": "08a979b03e0fc3c5618ec3ed2c3f451fa18965ca3123672bbfdc53be3553b51a",
+  "game_files": [
+    {
+      "path": "Tips/9ba626afa44a3aa3.patch_0",
+      "size": 113376,
+      "sha256": "cf9e6fec2f18ce70317d888c1b8642d14672da2142f6be09246d5cc519db7f42"
+    },
+    {
+      "path": "Tips/9ba626afa44a3aa3.patch_0.gpu_resources",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "Tips/9ba626afa44a3aa3.patch_0.stream",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "checks": {
+    "exact_82_known_values_changed": true,
+    "no_83rd_value_changed": true,
+    "all_1956_other_values_and_offsets_byte_identical": true,
+    "original_bytes_preserved_except_82_offset_words": true,
+    "header_ids_count_language_unchanged": true,
+    "no_test_marker_bytes": true,
+    "no_placeholder_in_82_tip_values": true,
+    "unrelated_stock_placeholder_preserved": true,
+    "valid_utf8_nul_termination": true,
+    "unique_keys_and_final_tips": true,
+    "only_one_strings_resource_no_gameplay": true,
+    "archive_bounds_alignment_zero_padding": true,
+    "zip_crc_exact_five_files_stable_manifest": true,
+    "only_owned_v1_resource_collision": true,
+    "current_build_and_fresh_vanilla_hash_match": true,
+    "all_82_individually_reviewed": true,
+    "exact_47_editorial_text_changes": true,
+    "independent_FileDiver_decode_reserialize_index_extract": true,
+    "all_222_unrelated_patch_files_unchanged": true,
+    "installed_readback_matches_package": true,
+    "only_3_owned_paths_needed_for_clean_removal": true,
+    "previous_v1_zip_preserved": true
+  },
+  "changed_entry_count": 82,
+  "unchanged_unrelated_entry_count": 1956,
+  "added_ids": 0,
+  "removed_ids": 0,
+  "runtime_evidence": "Earlier v1 rendering and wrapping user-reported successful. Polished RC1 final visual spot-check pending in saved records."
+}

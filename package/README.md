@@ -1,8 +1,6 @@
-# HD2 Expanded Tips
+# HD2 Expanded Tips v1.0.0
 
-**By Hijinks | v1.0.0**
-
-![HD2 Expanded Tips](assets/HD2-Expanded-Tips.png)
+By Hijinks.
 
 HD2 Expanded Tips replaces the 82 existing US English loading-screen tips with concise, practical reminders about survival, weapons, enemies, objectives, supplies and teamwork.
 
@@ -49,15 +47,3 @@ Links: [Helldivers Wiki](https://helldivers.wiki.gg/) | [FileDiver](https://gith
 - Includes the RC1 editorial pass: 46 rewrites and one replacement relative to the earlier v1 set; 35 tips retained from that set.
 - Preserves the vanilla UI, selector, pool size and all 1,956 unrelated localization entries.
 - Uses the exact RC1 main archive and empty sidecars; release metadata and documentation are updated for v1.0.0.
-
-## Download
-
-Use [the v1.0.0 release](https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0) and download `HD2-Expanded-Tips-v1.0.0.zip`. GitHub source archives are for development.
-
-## Build source
-
-`source/tips.json` contains the exact 82 authored replacement texts. `tools/build.py` accepts your own clean extracted US localization resource and verifies its SHA-256 before building. It refuses unknown inputs. See [BUILD.md](BUILD.md).
-
-## Permissions
-
-See [RIGHTS.md](RIGHTS.md). No open-source license has been selected. Game assets are not covered by any permission from this author.

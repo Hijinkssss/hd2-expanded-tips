@@ -1,0 +1,15 @@
+{
+  "Version": 1,
+  "Guid": "a873f613-306c-47a9-a646-e738f6ca306b",
+  "Name": "HD2 Expanded Tips",
+  "Description": "HD2 Expanded Tips v1.0.0 by Hijinks: 82 practical US English loading tips. Vanilla UI and selection; no loader dependency. Built for Steam build 25480438.",
+  "Options": [
+    {
+      "Name": "82 real US English tips",
+      "Description": "Replaces exactly 82 known loading-tip keys; other localization entries unchanged.",
+      "Include": [
+        "Tips"
+      ]
+    }
+  ]
+}

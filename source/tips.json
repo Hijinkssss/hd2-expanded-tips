@@ -1,0 +1,674 @@
+{
+  "schema_version": 1,
+  "version": "1.0.0",
+  "build": "25480438",
+  "resource": {
+    "path": "localization/strings_ui_us.strings",
+    "name_hash": "0x9524ED24479D06F5",
+    "type_hash": "0x0D972BAB10B40FD3",
+    "language": "us",
+    "language_hash": "0x03F97B57",
+    "parent_archive": "9ba626afa44a3aa3",
+    "localization_entry_count": 2038
+  },
+  "original_payload_sha256": "9cfc62572cd14aab06bd2f410542ebec8a9a65d5b3830071a75716e0b71c9abe",
+  "expected_archive_sha256": "cf9e6fec2f18ce70317d888c1b8642d14672da2142f6be09246d5cc519db7f42",
+  "entries": [
+    {
+      "tip_index": 0,
+      "tip_number": 1,
+      "localization_key": "0x573CB314",
+      "final_text": "Diving extinguishes fire.",
+      "category": "Survival",
+      "character_count": 25
+    },
+    {
+      "tip_index": 1,
+      "tip_number": 2,
+      "localization_key": "0xE12238EC",
+      "final_text": "Going prone reduces blast damage, but does not make you explosion-proof.",
+      "category": "Survival",
+      "character_count": 72
+    },
+    {
+      "tip_index": 2,
+      "tip_number": 3,
+      "localization_key": "0x14C09C44",
+      "final_text": "Stims restore health, heal broken limbs and stop bleeding from injuries.",
+      "category": "Survival",
+      "character_count": 72
+    },
+    {
+      "tip_index": 3,
+      "tip_number": 4,
+      "localization_key": "0x7F49E207",
+      "final_text": "You can use a stim at full health to restore stamina.",
+      "category": "Survival",
+      "character_count": 53
+    },
+    {
+      "tip_index": 4,
+      "tip_number": 5,
+      "localization_key": "0xFCB5FA40",
+      "final_text": "An empty stamina bar slows your sprint and reduces accuracy.",
+      "category": "Survival",
+      "character_count": 60
+    },
+    {
+      "tip_index": 5,
+      "tip_number": 6,
+      "localization_key": "0x15A48671",
+      "final_text": "Deep water can drown you; plan a safe route before carrying samples.",
+      "category": "Survival",
+      "character_count": 68
+    },
+    {
+      "tip_index": 6,
+      "tip_number": 7,
+      "localization_key": "0x6B9F692F",
+      "final_text": "Snow, mud and dense vegetation slow movement, so keep a clear escape route.",
+      "category": "Survival",
+      "character_count": 75
+    },
+    {
+      "tip_index": 7,
+      "tip_number": 8,
+      "localization_key": "0x873FBCD5",
+      "final_text": "Heat-based weapons take longer to cool down during Intense Heat.",
+      "category": "Survival",
+      "character_count": 64
+    },
+    {
+      "tip_index": 8,
+      "tip_number": 9,
+      "localization_key": "0xCDAFC73B",
+      "final_text": "Acid storms reduce armor effectiveness for enemies and Helldivers alike.",
+      "category": "Survival",
+      "character_count": 72
+    },
+    {
+      "tip_index": 9,
+      "tip_number": 10,
+      "localization_key": "0x5B73FD18",
+      "final_text": "Heavier armor offers more protection at the cost of speed and stamina.",
+      "category": "Survival",
+      "character_count": 70
+    },
+    {
+      "tip_index": 10,
+      "tip_number": 11,
+      "localization_key": "0x9F109A62",
+      "final_text": "Armor varies by body part; try an exposed limb if torso shots bounce off.",
+      "category": "Combat",
+      "character_count": 73
+    },
+    {
+      "tip_index": 11,
+      "tip_number": 12,
+      "localization_key": "0xCAFFC293",
+      "final_text": "A ricochet indicator means that shot failed to penetrate the armor.",
+      "category": "Combat",
+      "character_count": 67
+    },
+    {
+      "tip_index": 12,
+      "tip_number": 13,
+      "localization_key": "0xC1FA9CF4",
+      "final_text": "A white hitmarker on a bullet hit means armor is reducing the damage.",
+      "category": "Combat",
+      "character_count": 69
+    },
+    {
+      "tip_index": 13,
+      "tip_number": 14,
+      "localization_key": "0x95BA2596",
+      "final_text": "Hit armor straight on; shallow-angle shots can glance off.",
+      "category": "Combat",
+      "character_count": 58
+    },
+    {
+      "tip_index": 14,
+      "tip_number": 15,
+      "localization_key": "0x03E05312",
+      "final_text": "Explosive primary weapons can injure you and allies at close range.",
+      "category": "Combat",
+      "character_count": 67
+    },
+    {
+      "tip_index": 15,
+      "tip_number": 16,
+      "localization_key": "0x61A943C0",
+      "final_text": "Magazine reloads discard rounds left in the magazine you remove.",
+      "category": "Weapons",
+      "character_count": 64
+    },
+    {
+      "tip_index": 16,
+      "tip_number": 17,
+      "localization_key": "0xAA85C78B",
+      "final_text": "You can top up the SG-8 Punisher without wasting shells already loaded.",
+      "category": "Weapons",
+      "character_count": 71
+    },
+    {
+      "tip_index": 17,
+      "tip_number": 18,
+      "localization_key": "0x6D88BE14",
+      "final_text": "Most magazine-fed guns reload faster with a round still in the chamber.",
+      "category": "Weapons",
+      "character_count": 71
+    },
+    {
+      "tip_index": 18,
+      "tip_number": 19,
+      "localization_key": "0xEDC42010",
+      "final_text": "Let the Sickle cool before it overheats to save its spare heatsinks.",
+      "category": "Weapons",
+      "character_count": 68
+    },
+    {
+      "tip_index": 19,
+      "tip_number": 20,
+      "localization_key": "0x9C270194",
+      "final_text": "Interrupted Recoilless Rifle reloads resume from the last completed stage.",
+      "category": "Weapons",
+      "character_count": 74
+    },
+    {
+      "tip_index": 20,
+      "tip_number": 21,
+      "localization_key": "0xFC9B90CA",
+      "final_text": "Keep clear of a Recoilless Rifle's backblast; it can knock you down.",
+      "category": "Weapons",
+      "character_count": 68
+    },
+    {
+      "tip_index": 21,
+      "tip_number": 22,
+      "localization_key": "0xA38FBFD3",
+      "final_text": "One-handed weapons can be fired while carrying an SSSD.",
+      "category": "Weapons",
+      "character_count": 55
+    },
+    {
+      "tip_index": 22,
+      "tip_number": 23,
+      "localization_key": "0x8A343D22",
+      "final_text": "Some scoped weapons let you change zoom through the Weapon Wheel.",
+      "category": "Weapons",
+      "character_count": 65
+    },
+    {
+      "tip_index": 23,
+      "tip_number": 24,
+      "localization_key": "0xC60C070F",
+      "final_text": "Check the Weapon Wheel for fire modes such as semi-auto or burst.",
+      "category": "Weapons",
+      "character_count": 65
+    },
+    {
+      "tip_index": 24,
+      "tip_number": 25,
+      "localization_key": "0xE0A80DED",
+      "final_text": "Take the Autocannon's ammo backpack too; it is needed to reload the weapon.",
+      "category": "Weapons",
+      "character_count": 75
+    },
+    {
+      "tip_index": 25,
+      "tip_number": 26,
+      "localization_key": "0x99613634",
+      "final_text": "Destroy a Stalker Lair's holes to stop it from spawning more Stalkers.",
+      "category": "Terminids",
+      "character_count": 70
+    },
+    {
+      "tip_index": 26,
+      "tip_number": 27,
+      "localization_key": "0x82184D9E",
+      "final_text": "A Bile Spewer has an unarmored mouth even when its head is armored.",
+      "category": "Terminids",
+      "character_count": 67
+    },
+    {
+      "tip_index": 27,
+      "tip_number": 28,
+      "localization_key": "0xF9186E13",
+      "final_text": "A headless Brood Commander can still attack before it finally dies.",
+      "category": "Terminids",
+      "character_count": 67
+    },
+    {
+      "tip_index": 28,
+      "tip_number": 29,
+      "localization_key": "0x7BB90828",
+      "final_text": "Destroying a Brood Commander's leg slows its movement and charge.",
+      "category": "Terminids",
+      "character_count": 65
+    },
+    {
+      "tip_index": 29,
+      "tip_number": 30,
+      "localization_key": "0x8A810998",
+      "final_text": "Flank a crouching Hive Guard to reach its less-armored body.",
+      "category": "Terminids",
+      "character_count": 60
+    },
+    {
+      "tip_index": 30,
+      "tip_number": 31,
+      "localization_key": "0x619F137F",
+      "final_text": "Destroying a Bile Titan's sacs stops bile attacks, but its legs remain dangerous.",
+      "category": "Terminids",
+      "character_count": 81
+    },
+    {
+      "tip_index": 31,
+      "tip_number": 32,
+      "localization_key": "0xFE389F38",
+      "final_text": "A Devastator's exposed face is less armored than its torso.",
+      "category": "Automatons",
+      "character_count": 59
+    },
+    {
+      "tip_index": 32,
+      "tip_number": 33,
+      "localization_key": "0xA2CC7A67",
+      "final_text": "Destroy a Rocket Devastator's shoulder pods to disable its rocket attacks.",
+      "category": "Automatons",
+      "character_count": 74
+    },
+    {
+      "tip_index": 33,
+      "tip_number": 34,
+      "localization_key": "0x8A90028C",
+      "final_text": "Flank a Hulk to shoot the glowing heat sink on its back.",
+      "category": "Automatons",
+      "character_count": 56
+    },
+    {
+      "tip_index": 34,
+      "tip_number": 35,
+      "localization_key": "0xBDD98657",
+      "final_text": "Destroy a Hulk's weapon arm to disable that weapon; it can still stomp.",
+      "category": "Automatons",
+      "character_count": 71
+    },
+    {
+      "tip_index": 35,
+      "tip_number": 36,
+      "localization_key": "0x41B6FF91",
+      "final_text": "Prioritize Watchers; they can call in Illuminate reinforcements.",
+      "category": "Illuminate",
+      "character_count": 64
+    },
+    {
+      "tip_index": 36,
+      "tip_number": 37,
+      "localization_key": "0x6CDD9E43",
+      "final_text": "Use medium armor penetration or better to shoot through an Overseer's helmet.",
+      "category": "Illuminate",
+      "character_count": 77
+    },
+    {
+      "tip_index": 37,
+      "tip_number": 38,
+      "localization_key": "0x3731903A",
+      "final_text": "An Overseer's raised shield leaves its legs exposed.",
+      "category": "Illuminate",
+      "character_count": 52
+    },
+    {
+      "tip_index": 38,
+      "tip_number": 39,
+      "localization_key": "0xC449458F",
+      "final_text": "Break a Harvester's shield before firing your anti-tank shot.",
+      "category": "Illuminate",
+      "character_count": 61
+    },
+    {
+      "tip_index": 39,
+      "tip_number": 40,
+      "localization_key": "0x251EA37D",
+      "final_text": "A Harvester's leg joints are vulnerable to medium armor penetration.",
+      "category": "Illuminate",
+      "character_count": 68
+    },
+    {
+      "tip_index": 40,
+      "tip_number": 41,
+      "localization_key": "0xB54CB14B",
+      "final_text": "During normal extraction, the first Helldiver aboard starts the departure timer.",
+      "category": "Objectives",
+      "character_count": 80
+    },
+    {
+      "tip_index": 41,
+      "tip_number": 42,
+      "localization_key": "0x2AC923F4",
+      "final_text": "Stay near the extraction beacon during a normal call-in or the pickup can abort.",
+      "category": "Objectives",
+      "character_count": 80
+    },
+    {
+      "tip_index": 42,
+      "tip_number": 43,
+      "localization_key": "0x47CF89DF",
+      "final_text": "Complete a LiDAR Station to reveal objectives, enemy bases and points of interest.",
+      "category": "Objectives",
+      "character_count": 82
+    },
+    {
+      "tip_index": 43,
+      "tip_number": 44,
+      "localization_key": "0x08777499",
+      "final_text": "Listen for the alignment beep when turning a LiDAR Station dish.",
+      "category": "Objectives",
+      "character_count": 64
+    },
+    {
+      "tip_index": 44,
+      "tip_number": 45,
+      "localization_key": "0x22724034",
+      "final_text": "SEAF Artillery fires shells in loading order; tell the squad what comes next.",
+      "category": "Objectives",
+      "character_count": 77
+    },
+    {
+      "tip_index": 45,
+      "tip_number": 46,
+      "localization_key": "0x900B4EE7",
+      "final_text": "SEAF Artillery still works after your Super Destroyer leaves, if shells remain.",
+      "category": "Objectives",
+      "character_count": 79
+    },
+    {
+      "tip_index": 46,
+      "tip_number": 47,
+      "localization_key": "0xB6B044E9",
+      "final_text": "A called-in Hellbomb must be armed at its panel before it detonates.",
+      "category": "Objectives",
+      "character_count": 68
+    },
+    {
+      "tip_index": 47,
+      "tip_number": 48,
+      "localization_key": "0xC5047E23",
+      "final_text": "A called-in Hellbomb can explode early if destroyed after arming; clear the area.",
+      "category": "Objectives",
+      "character_count": 81
+    },
+    {
+      "tip_index": 48,
+      "tip_number": 49,
+      "localization_key": "0x610E07F3",
+      "final_text": "In Commando missions, activate Reinforcement Pods to gain reinforcements.",
+      "category": "Objectives",
+      "character_count": 73
+    },
+    {
+      "tip_index": 49,
+      "tip_number": 50,
+      "localization_key": "0x360DD684",
+      "final_text": "You cannot call Reinforce inside a Stratagem Jammer's active radius.",
+      "category": "Objectives",
+      "character_count": 68
+    },
+    {
+      "tip_index": 50,
+      "tip_number": 51,
+      "localization_key": "0x3DAA024B",
+      "final_text": "In regular missions, a depleted reinforcement budget recovers if someone survives.",
+      "category": "Objectives",
+      "character_count": 82
+    },
+    {
+      "tip_index": 51,
+      "tip_number": 52,
+      "localization_key": "0xED12B266",
+      "final_text": "Ion Storms can block Reinforce as well as your other stratagem calls.",
+      "category": "Objectives",
+      "character_count": 69
+    },
+    {
+      "tip_index": 52,
+      "tip_number": 53,
+      "localization_key": "0x3D1963E8",
+      "final_text": "Every squad member receives the full number of samples successfully extracted.",
+      "category": "Samples and economy",
+      "character_count": 78
+    },
+    {
+      "tip_index": 53,
+      "tip_number": 54,
+      "localization_key": "0x19A91B5E",
+      "final_text": "Samples must leave on the shuttle to count toward the squad's rewards.",
+      "category": "Samples and economy",
+      "character_count": 70
+    },
+    {
+      "tip_index": 54,
+      "tip_number": 55,
+      "localization_key": "0x02C627E7",
+      "final_text": "Drop samples at extraction before risky detours, then collect them before boarding.",
+      "category": "Samples and economy",
+      "character_count": 83
+    },
+    {
+      "tip_index": 55,
+      "tip_number": 56,
+      "localization_key": "0xC7777C38",
+      "final_text": "Recover a fallen teammate's sample container; anyone can bring those samples home.",
+      "category": "Samples and economy",
+      "character_count": 82
+    },
+    {
+      "tip_index": 56,
+      "tip_number": 57,
+      "localization_key": "0x936CC34F",
+      "final_text": "Super Credits go to the whole squad as soon as someone picks them up.",
+      "category": "Samples and economy",
+      "character_count": 69
+    },
+    {
+      "tip_index": 57,
+      "tip_number": 58,
+      "localization_key": "0x5E5E7E85",
+      "final_text": "Warbonds do not expire, so you can return to their rewards later.",
+      "category": "Samples and economy",
+      "character_count": 65
+    },
+    {
+      "tip_index": 58,
+      "tip_number": 59,
+      "localization_key": "0xB25CEDC7",
+      "final_text": "Spend Medals before you hit the storage cap so new rewards are not wasted.",
+      "category": "Samples and economy",
+      "character_count": 74
+    },
+    {
+      "tip_index": 59,
+      "tip_number": 60,
+      "localization_key": "0xC3BAD11C",
+      "final_text": "Explosives can open sealed cargo containers at points of interest.",
+      "category": "Samples and economy",
+      "character_count": 66
+    },
+    {
+      "tip_index": 60,
+      "tip_number": 61,
+      "localization_key": "0xB5B837CB",
+      "final_text": "Resupply has a squad-wide cooldown; coordinate calls before splitting up.",
+      "category": "Stratagems",
+      "character_count": 73
+    },
+    {
+      "tip_index": 61,
+      "tip_number": 62,
+      "localization_key": "0x034A86EC",
+      "final_text": "Resupply boxes replenish ammo, grenades and stims.",
+      "category": "Stratagems",
+      "character_count": 50
+    },
+    {
+      "tip_index": 62,
+      "tip_number": 63,
+      "localization_key": "0xDCC846BE",
+      "final_text": "A Resupply box replenishes your supplies and fills an empty Supply Pack slot.",
+      "category": "Stratagems",
+      "character_count": 77
+    },
+    {
+      "tip_index": 63,
+      "tip_number": 64,
+      "localization_key": "0x15CE1CFC",
+      "final_text": "Loose ammo boxes cannot refill a Supply Pack; use Resupply boxes.",
+      "category": "Stratagems",
+      "character_count": 65
+    },
+    {
+      "tip_index": 64,
+      "tip_number": 65,
+      "localization_key": "0xA54F3081",
+      "final_text": "Use Eagle Rearm between fights to restock Eagle-1 for the next encounter.",
+      "category": "Stratagems",
+      "character_count": 73
+    },
+    {
+      "tip_index": 65,
+      "tip_number": 66,
+      "localization_key": "0x0638BCF1",
+      "final_text": "Eagle Airstrike drops a line of bombs across the direction you throw its beacon.",
+      "category": "Stratagems",
+      "character_count": 80
+    },
+    {
+      "tip_index": 66,
+      "tip_number": 67,
+      "localization_key": "0x4B391232",
+      "final_text": "Eagle Strafing Run follows the direction you throw its beacon.",
+      "category": "Stratagems",
+      "character_count": 62
+    },
+    {
+      "tip_index": 67,
+      "tip_number": 68,
+      "localization_key": "0x86996DA7",
+      "final_text": "Sentries do not avoid friendly fire; keep teammates out of their firing lanes.",
+      "category": "Stratagems",
+      "character_count": 78
+    },
+    {
+      "tip_index": 68,
+      "tip_number": 69,
+      "localization_key": "0x7DF9C252",
+      "final_text": "Keep clear of enemies targeted by Mortar Sentries; their shells can hit you too.",
+      "category": "Stratagems",
+      "character_count": 80
+    },
+    {
+      "tip_index": 69,
+      "tip_number": 70,
+      "localization_key": "0x6C1B6AA2",
+      "final_text": "Enemy corpses can block an Autocannon Sentry's line of sight.",
+      "category": "Stratagems",
+      "character_count": 61
+    },
+    {
+      "tip_index": 70,
+      "tip_number": 71,
+      "localization_key": "0xDC7E0399",
+      "final_text": "Smoke blocks sight, but enemies may still fire at your last known position.",
+      "category": "Stratagems",
+      "character_count": 75
+    },
+    {
+      "tip_index": 71,
+      "tip_number": 72,
+      "localization_key": "0x50CD1D81",
+      "final_text": "Armor with the Scout passive lets your map markers scan for nearby enemies.",
+      "category": "Controls and UI",
+      "character_count": 75
+    },
+    {
+      "tip_index": 72,
+      "tip_number": 73,
+      "localization_key": "0x2ECCCB74",
+      "final_text": "You can use your stims to heal an injured teammate at close range.",
+      "category": "Teamplay",
+      "character_count": 66
+    },
+    {
+      "tip_index": 73,
+      "tip_number": 74,
+      "localization_key": "0x38157F13",
+      "final_text": "Help reload a teammate's Recoilless Rifle to keep it firing faster.",
+      "category": "Teamplay",
+      "character_count": 67
+    },
+    {
+      "tip_index": 74,
+      "tip_number": 75,
+      "localization_key": "0x9965FF39",
+      "final_text": "Reinforce teammates near their dropped gear when it is safe to do so.",
+      "category": "Teamplay",
+      "character_count": 69
+    },
+    {
+      "tip_index": 75,
+      "tip_number": 76,
+      "localization_key": "0xD083386D",
+      "final_text": "Bunker doors need two Helldivers pressing the separate buttons together.",
+      "category": "Teamplay",
+      "character_count": 72
+    },
+    {
+      "tip_index": 76,
+      "tip_number": 77,
+      "localization_key": "0x8150D193",
+      "final_text": "Steer your reinforcement pod clear of teammates; Hellpods can crush them.",
+      "category": "Teamplay",
+      "character_count": 73
+    },
+    {
+      "tip_index": 77,
+      "tip_number": 78,
+      "localization_key": "0x3CF3C012",
+      "final_text": "Hold Reload to open the Weapon Wheel and check your weapon's options.",
+      "category": "Controls and UI",
+      "character_count": 69
+    },
+    {
+      "tip_index": 78,
+      "tip_number": 79,
+      "localization_key": "0xEFBEF5ED",
+      "final_text": "Use Backpack Function to resupply yourself from a Supply Pack.",
+      "category": "Controls and UI",
+      "character_count": 62
+    },
+    {
+      "tip_index": 79,
+      "tip_number": 80,
+      "localization_key": "0x53582F79",
+      "final_text": "Use Backpack Function to stow a Guard Dog before sneaking past enemies.",
+      "category": "Controls and UI",
+      "character_count": 71
+    },
+    {
+      "tip_index": 80,
+      "tip_number": 81,
+      "localization_key": "0x8E38BB6F",
+      "final_text": "Set Sample Count Visibility in the HUD options to keep track of collected samples.",
+      "category": "Controls and UI",
+      "character_count": 82
+    },
+    {
+      "tip_index": 81,
+      "tip_number": 82,
+      "localization_key": "0x45B6CAC3",
+      "final_text": "Mark your next objective on the map to help the squad follow the same route.",
+      "category": "Controls and UI",
+      "character_count": 76
+    }
+  ]
+}
