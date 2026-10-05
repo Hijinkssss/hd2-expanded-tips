@@ -14,6 +14,26 @@ This is a localization resource replacement. It includes no scripts, native hook
 - Preserves the vanilla UI, selector, pool size and all 1,956 unrelated localization entries.
 - Uses the exact RC1 main archive and empty sidecars; release metadata and documentation are updated for v1.0.0.
 
-US English only; Steam build 25480438. Localization-table conflicts are possible. Manual install and removal instructions are in the ZIP README.
+US English only; supported Steam build 25480438. Localization-table conflicts are possible.
 
-Verification: game-file hashes match RC1 exactly; source reproduction and ZIP checks pass. Earlier v1 in-game rendering/wrapping was reported successful; polished RC1 final visual spot-check remains pending in saved records.
+## Installation
+
+1. Download `HD2-Expanded-Tips-v1.0.0.zip`.
+2. Open HD2 Arsenal.
+3. Import the ZIP.
+4. Enable **HD2 Expanded Tips**.
+5. Deploy your mod configuration.
+
+Launch Helldivers 2 normally through your Arsenal-managed setup.
+
+No additional mod loader or runtime dependency is required.
+
+## Removal
+
+Disable or remove **HD2 Expanded Tips** in Arsenal, then redeploy your mod configuration.
+
+Vanilla loading-screen tips will return unless another mod is replacing the same localization resource.
+
+## Validation
+
+Game-file hashes match RC1 exactly; source reproduction and ZIP checks pass. Runtime validation PASSED. Three different final RC1 tips were manually observed in-game across separate mission loads, including correct multiline wrapping. All 82 tips were not individually visually inspected.
