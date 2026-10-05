@@ -12,27 +12,42 @@ This is a localization resource replacement. It includes no scripts, native hook
 
 ## Installation
 
-1. Fully close Helldivers 2.
-2. In Steam, browse Helldivers 2's local files and open the `data` folder.
-3. Extract the ZIP. Inside `Tips` are three files for archive family `9ba626afa44a3aa3`.
-4. Choose an unused patch number N. Check that `9ba626afa44a3aa3.patch_N`, `.patch_N.stream` and `.patch_N.gpu_resources` are all absent. Never overwrite another mod.
-5. Rename all three files from `patch_0` to `patch_N`, preserving the suffixes, then copy those three files directly into `data`. Keep the manifest, README and `Tips` folder itself outside `data`.
-6. Record the three installed filenames. Start the game with US English selected and check a mission loading screen.
+1. Download `HD2-Expanded-Tips-v1.0.0.zip`.
+2. Open HD2 Arsenal.
+3. Import the ZIP.
+4. Enable **HD2 Expanded Tips**.
+5. Deploy your mod configuration.
 
-Use a full restart after installation or removal. Install one copy only. A mod manager can renumber or remove manual patches during deployment, so recheck ownership before making changes. The included manifest describes one Tips option; manager import/redeployment of this package has not been live-tested. Manual installation is the documented method.
+Launch Helldivers 2 normally through your Arsenal-managed setup.
+
+No additional mod loader or runtime dependency is required.
 
 ## Removal
 
-Fully close Helldivers 2. Remove only the three filenames you recorded when installing: `9ba626afa44a3aa3.patch_N`, `9ba626afa44a3aa3.patch_N.stream` and `9ba626afa44a3aa3.patch_N.gpu_resources`, using your chosen N. If a manager has reordered patches, verify that those files still belong to this mod first. Restart the game. Vanilla tips return unless another localization override is active. Do not delete original archives or another mod's files.
+Disable or remove **HD2 Expanded Tips** in Arsenal, then redeploy your mod configuration.
+
+Vanilla loading-screen tips will return unless another mod is replacing the same localization resource.
 
 ## Compatibility and limitations
 
 - US English only. UK English and other language tables are untouched; English fallback is not assumed.
-- Built and statically verified against Steam build 25480438. Later game updates need a fresh comparison and may require a rebuild.
-- Can conflict with any mod replacing `localization/strings_ui_us.strings`, even if that mod changes different entries. Use one combined override when needed.
-- The pool stays at 82 tips. There are no added tip IDs, selector changes or custom randomization.
+- Built for the currently supported Steam build 25480438 and statically verified against it. Future game updates may require a fresh comparison and rebuild.
+- Can conflict with mods replacing `localization/strings_ui_us.strings`, even if they change different entries.
+- Uses the fixed vanilla pool of 82 tips; no added tip IDs.
+- Intended to be installed and deployed through HD2 Arsenal, the recommended method.
+- No scripts.
+- No Shared Loader/Bingus loader or other runtime mod loader dependency.
+- No native hooks.
+- No runtime polling.
+- No gameplay changes.
+- No custom RNG or selector behavior. Vanilla loading-screen tip selection remains intact.
 - Gameplay advice may need revision after balance updates. Wrapping can vary with display settings.
-- Earlier v1 rendering and wrapping were confirmed by the author's test report. The polished RC1 game files used for this release passed independent static/archive checks; their final in-game visual spot-check remains pending in the saved project records. No claim is made that all 82 tips have been visually tested.
+
+## Validation
+
+Runtime validation PASSED. Three different final RC1 tips were manually observed in-game across separate mission loads, including correct multiline wrapping. Different tips were selected by the vanilla loading-screen system. This does not claim that all 82 tips were individually visually inspected.
+
+All 82 intended tip entries were replaced; the other 1,956 localization entries remained unchanged. See [the validation record](docs/VALIDATION.md).
 
 ## Credits
 
