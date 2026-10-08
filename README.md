@@ -1,78 +1,65 @@
-# HD2 Expanded Tips
+# HD2 Expanded Tips - 250 TIPS
 
-**By Hijinks | v1.0.0**
+**By Hijinks | v2.0.0**
 
 ![HD2 Expanded Tips](assets/HD2-Expanded-Tips.png)
 
-HD2 Expanded Tips replaces the 82 existing US English loading-screen tips with concise, practical reminders about survival, weapons, enemies, objectives, supplies and teamwork.
+**250 loading-screen tips** mixing useful gameplay advice, Helldivers lore, Super Earth propaganda, and dry community humor. Keep **all 82 original vanilla tips** and add **168 custom tips**, with a fresh selection from the library each time you launch.
 
-The familiar TRAINING MANUAL TIPS display and vanilla tip selection stay in place. Tips still appear through the game's original selection behavior; this mod adds no custom rotation or RNG. Version 1.0.0 replaces the existing pool of 82 tips and does not increase its size.
+**112 Useful • 58 Lore • 80 Funny**
 
-This is a localization resource replacement. It includes no scripts, native hooks, polling, gameplay changes or loader dependency.
+[Download v2.0.0](https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v2.0.0) | [Nexus Mods](https://www.nexusmods.com/helldivers2/mods/16970)
+
+## Choose your categories in Arsenal
+
+All categories, Useful + Lore, Useful + Funny, Lore + Funny, Useful only, Lore only, Funny only, or Vanilla only. Every combination keeps the original 82 vanilla tips eligible. **All categories** gives you the complete 250-tip library.
+
+Choose your categories in Arsenal, confirm, deploy, then launch. There is no in-game setup menu.
+
+Examples:
+
+- “SEAF Artillery fires shells in the order they were loaded. Plan your ammunition sequence carefully.”
+- “The Illuminate were declared eradicated after the First Galactic War. Their return is an administrative inconvenience.”
+- “The resupply pod delivers four boxes. Please stop trying to become the fifth.”
 
 ## Installation
 
-1. Download `HD2-Expanded-Tips-v1.0.0.zip`.
-2. Open HD2 Arsenal.
-3. Import the ZIP.
-4. Enable **HD2 Expanded Tips**.
-5. Deploy your mod configuration.
+1. Close Helldivers 2 and install [Bingus Shared Loader v19 / API 1](https://github.com/CowboyBingus/BingusSharedLoader/releases/tag/loader-v19) through Arsenal.
+2. Disable the old Expanded Tips package and any other Expanded Tips version.
+3. Import `HD2-Expanded-Tips-2.0.0-Arsenal.zip` into Arsenal and enable it.
+4. Open its options, enable **Tip categories**, and choose your combination.
+5. Confirm and deploy, then launch normally.
 
-Launch Helldivers 2 normally through your Arsenal-managed setup.
+**Shared Loader is the only runtime dependency.** HD2ModCore and Mod Options Menu are not required. Old in-game category preferences are ignored.
 
-No additional mod loader or runtime dependency is required.
+## How the 250-tip library rotates
 
-## Removal
+The game has 82 active tip slots. Each successful startup selects 82 unique eligible tips from a saved shuffled deck. That selection stays fixed for the session. With all 250 enabled, three launches make 246 different tips available; the fourth starts with the remaining four before moving into the next shuffled cycle.
 
-Disable or remove **HD2 Expanded Tips** in Arsenal, then redeploy your mod configuration.
+The game still chooses which available tip appears on each loading screen, so you can see repeats within a session. The deck tracks selected pools, not individual tips you have seen. Changing categories resets the deck. To change an option, close the game, redeploy in Arsenal, and launch again.
 
-Vanilla loading-screen tips will return unless another mod is replacing the same localization resource.
+## Compatibility and removal
 
-## Compatibility and limitations
+US English text; supported Steam build 25480438. Unsupported executable/game DLL fingerprints are rejected by the runtime checks. Future game updates may require an update to this mod. Other replacements of the US UI dictionary or loading-tip table may conflict.
 
-- US English only. UK English and other language tables are untouched; English fallback is not assumed.
-- Built for the currently supported Steam build 25480438 and statically verified against it. Future game updates may require a fresh comparison and rebuild.
-- Can conflict with mods replacing `localization/strings_ui_us.strings`, even if they change different entries.
-- Uses the fixed vanilla pool of 82 tips; no added tip IDs.
-- Intended to be installed and deployed through HD2 Arsenal, the recommended method.
-- No scripts.
-- No Shared Loader/Bingus loader or other runtime mod loader dependency.
-- No native hooks.
-- No runtime polling.
-- No gameplay changes.
-- No custom RNG or selector behavior. Vanilla loading-screen tip selection remains intact.
-- Gameplay advice may need revision after balance updates. Wrapping can vary with display settings.
+To remove: close the game, disable/remove Expanded Tips in Arsenal, and redeploy. Shared Loader can remain installed for your other mods. Saved rotation state stays under `%LOCALAPPDATA%/CowboyBingus/Helldivers2/ExpandedTipsRC2/rotation.state`; the legacy folder name is intentional.
 
-## Validation
+## Version 2.0.0
 
-Runtime validation PASSED. Three different final RC1 tips were manually observed in-game across separate mission loads, including correct multiline wrapping. Different tips were selected by the vanilla loading-screen system. This does not claim that all 82 tips were individually visually inspected.
+- 250 tips: 82 unchanged vanilla tips and 168 custom tips.
+- Eight Arsenal category combinations.
+- Persistent shuffled rotation at startup.
+- Shared Loader as the sole runtime dependency.
+- 418 offline checks passed across all eight profiles and startup lifecycle cases. Live testing of this final Shared Loader-only package is pending.
 
-All 82 intended tip entries were replaced; the other 1,956 localization entries remained unchanged. See [the validation record](docs/VALIDATION.md).
+The native 82-slot selector remains unchanged. A temporary startup wait retires after success, failure, or a 30-second timeout; no mission-time reshuffle is added.
 
-## Credits
+The [older v1.0.0 release](https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0) remains available as a legacy 82-tip localization replacement. Its source and validation records describe that older version.
 
-By Hijinks.
+## Credits and permissions
 
-Gameplay references: the Helldivers Wiki community and the installed game's own descriptions. Archive format inspection and independent structural checks used FileDiver by xypwn and contributors. Helldivers 2 and its game assets belong to their respective owners. This is an unofficial community mod.
+By Hijinks. Bingus Shared Loader and embedded Bingus Shared Runtime helpers by CowboyBingus. Archive tooling by FileDiver and the HD2 community. Logo created with AI assistance. Game assets belong to their respective owners. Unofficial community mod.
 
-Links: [Helldivers Wiki](https://helldivers.wiki.gg/) | [FileDiver](https://github.com/xypwn/filediver) | [Source and releases](https://github.com/Hijinkssss/hd2-expanded-tips)
+See [RIGHTS.md](RIGHTS.md). No open-source license has been selected for the author's work; embedded third-party helpers retain their own license.
 
-## Changelog: 1.0.0
-
-- Initial public v1.0.0 release.
-- Replaces all 82 existing US English loading tips with practical advice.
-- Includes the RC1 editorial pass: 46 rewrites and one replacement relative to the earlier v1 set; 35 tips retained from that set.
-- Preserves the vanilla UI, selector, pool size and all 1,956 unrelated localization entries.
-- Uses the exact RC1 main archive and empty sidecars; release metadata and documentation are updated for v1.0.0.
-
-## Download
-
-Use [the v1.0.0 release](https://github.com/Hijinkssss/hd2-expanded-tips/releases/tag/v1.0.0) and download `HD2-Expanded-Tips-v1.0.0.zip`. GitHub source archives are for development.
-
-## Build source
-
-`source/tips.json` contains the exact 82 authored replacement texts. `tools/build.py` accepts your own clean extracted US localization resource and verifies its SHA-256 before building. It refuses unknown inputs. See [BUILD.md](BUILD.md).
-
-## Permissions
-
-See [RIGHTS.md](RIGHTS.md). No open-source license has been selected. Game assets are not covered by any permission from this author.
+[More mods and guides by Hijinks](https://hijinkssss.github.io/)
